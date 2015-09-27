@@ -24,7 +24,7 @@ window.onload = function() { init() };
 			
 			myDiv.innerHTML = "<center><h1><font color='white'>New Delhi</font></h1><center><br>";
 			myDiv.innerHTML += "<center><h1><font color='white'>High Pollution <i class='fa fa-frown-o fa-2x'></i></font></h1></center>";
-			myDiv.innerHTML += "<center><font-color='#d3d3d3'>Take care while outdoor sports, cycling, eating outside</font></center>"	
+			myDiv.innerHTML += "<center>Take care while outdoor sports, cycling, eating outside</center>"	
 		}
 
 		else if (obj["Remark"] == 1) {
