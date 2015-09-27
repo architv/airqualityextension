@@ -24,13 +24,25 @@ window.onload = function() { init() };
 			
 			myDiv.innerHTML = "<center><h1><font color='white'>New Delhi</font></h1><center><br>";
 			myDiv.innerHTML += "<center><h1><font color='white'>High Pollution <i class='fa fa-frown-o fa-2x'></i></font></h1></center>";
-			//myDiv.innerHTML += 		
+			myDiv.innerHTML += "<center><font-color='#d3d3d3'>Take care while outdoor sports, cycling, eating outside</font></center>"	
 		}
 
 		else if (obj["Remark"] == 1) {
 
-			myDiv.innerHTML = "<center><h1><font color='white'>New Delhi</font></h1><center><br>";
-			myDiv.innerHTML += "<center><h1><font color='white'>Fresh Air :)</font></h1></center>";
+			myDiv.innerHTML = "<center><h1>New Delhi</h1><center><br>";
+			myDiv.innerHTML += "<center><h1>Fresh Air <i class='fa fa-smile-o fa-2x'></i></h1></center>";
+		}
+
+		else if (obj["Remark"] == 2) {
+
+			myDiv.innerHTML = "<center><h1>New Delhi</h1><center><br>";
+			myDiv.innerHTML += "<center><h1>Moderate Pollution</h1></center>";
+		}
+
+		else if (obj["Remark"] == 4) {
+
+			myDiv.innerHTML = "<center><h1>New Delhi</h1><center><br>";
+			myDiv.innerHTML += "<center><h1>Extreme Pollution </h1></center>";
 		}
 	    
 	} 
